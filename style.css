@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input{
+    font-size: 1.5rem;
+    padding: 20px 50px 30px 10px;
+    align-self: center;
+    border: 2px solid rgb(2, 32, 199);
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    /* align-items: center; */
+}
+input{
+    min-width: 200px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 2px solid rgba(130, 128, 128, 0.757);
+}
+
+#addbtn{
+    margin-top: 20px;
+    font-size: 1.5rem;
+   padding: 10px 25px;
+   width: 120px;
+   align-self: center;
+   color: azure;
+   background-color:black;
+   border: none;
+   border-radius: 5px;
+}
+#addbtn:hover{
+    background-color: rgb(75, 69, 69);
+}
+#addbtn:active{
+    background-color: black;
+}
+
+table{
+    font-size: 2rem;
+    margin-left:40px ;
+    margin-right: 40px;
+    border: 2px solid black;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+th{
+   border: 2px solid rgb(17, 13, 13); 
+}
+button{
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    margin: 2px;
+    background-color: black;
+    border-radius: 5px;
+    color: aliceblue;
+}
+button:hover{
+    background-color: rgb(71, 64, 66);
+}
+.t1{
+    background-color:rgba(1, 56, 255, 0.459);
+    color:rgb(17, 19, 19);
+}

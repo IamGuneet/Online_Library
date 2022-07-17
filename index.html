@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Library</title>
+</head>
+<body>
+    <div class="header" style="background-color: black;min-height: 40px;padding: 10px;">
+        <div class="heading" style="color: white; font-size: 3rem;">Library    </div>  
+    </div>
+
+    <div class="input">
+        <form onSubmit="myFunction(); return false;" >
+            <div class="instr" style="font-weight:600;margin-bottom: 10px;text-decoration: underline;">Enter the books details.</div>
+            <div id="name"><label for="name" style="margin-right:10px ;">Name:</label><input type="text" class="name" id="name" placeholder="Ex: Harry Potter.." required></div>
+            <div id="name"><label for="pages" style="margin-right:10px ;">Pages:</label><input type="number" class="number" id="pages"  placeholder="Ex: 255.." required></div>
+            <div id="status"> <label for="read" style="margin-right:5px ;">Status:</label><input type="text" class="status" id="read" placeholder="Ex: not read / already read.."></div>
+        </form>
+        <button type="button" id="addbtn">Add</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="t1">Name:</th>
+                <th class="t1">No Of Pages:</th>
+                <th class="t1">Status:</th>
+                <th class="t1">Remove</th>
+            
+            </tr>
+        </thead>
+        <tbody id="book-list"></tbody>
+
+    </table>
+
+    <script src="./script.js"></script>
+</body>
+</html>
